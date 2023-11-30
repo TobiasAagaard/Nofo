@@ -8,12 +8,12 @@ export const Navbar = () => {
             <img src={Logo} alt="Logo" />
             </Link>
             <ul>
-                <li><NavLink to={'/'}>Om os</NavLink></li>
-                <li><NavLink to={'/'}>Samarbejdspartnere</NavLink></li>
-                <li><NavLink to={'/'}>Bliv medlem</NavLink></li>
-                <li><NavLink to={'/'}>Kontakt</NavLink></li>
-                <li><NavLink to={'/'}>Status</NavLink></li>
-                <li><NavLink to={'/'}>Åbningstider</NavLink></li>
+                <li><NavLink>Om os</NavLink></li>
+                <li><NavLink>Samarbejdspartnere</NavLink></li>
+                <li><NavLink>Bliv medlem</NavLink></li>
+                <li><NavLink>Kontakt</NavLink></li>
+                <li><NavLink>Status</NavLink></li>
+                <li><NavLink>Åbningstider</NavLink></li>
             </ul>
         </nav>
     )
