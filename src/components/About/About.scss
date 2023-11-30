@@ -1,6 +1,14 @@
 #about {
-    margin-top: 1rem;
-    background-color: #403D58;
+    background-color: #87CA7A;
+
+    .about {
+        margin:0;
+        padding-top: 3rem;
+        font-size: 4rem;
+        font-weight: 500;
+        color: #eee;
+        text-align: center;
+    }
    
     figure {
         margin: 0;
@@ -8,18 +16,17 @@
         display: grid;
         grid-template-columns: 1fr 1fr;
         figcaption {
-            margin: 5rem;
+            margin: 6.3rem;
             h2 {
                 margin: 0 0 1rem 0;
                 padding-top: 1rem;
-                font-size: 3rem;
+                font-size: 2rem;
                 font-weight: 500;
                 color: #eee;
-                text-align: center;
                 
             }
             p {
-                margin: 0 0 1rem 0;
+                margin: 0 0 0.9rem 0;
                 font-size: 1rem;
                 font-weight: 500;
                 color: #eee;
@@ -28,8 +35,8 @@
             }
         }
         img {
-            margin: 0;
-            width: 100%;
+            margin: 5rem;
+            width: 75dvh;
         }
     }
 }
