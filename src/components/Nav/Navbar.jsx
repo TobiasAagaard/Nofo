@@ -8,7 +8,7 @@ export const Navbar = () => {
             <img src={Logo} alt="Logo" />
             </Link>
             <ul>
-                <li><NavLink>Om os</NavLink></li>
+                <li><NavLink to={'#about'}>Om os</NavLink></li>
                 <li><NavLink>Samarbejdspartnere</NavLink></li>
                 <li><NavLink>Bliv medlem</NavLink></li>
                 <li><NavLink>Kontakt</NavLink></li>

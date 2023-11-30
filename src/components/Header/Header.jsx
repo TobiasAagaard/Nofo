@@ -1,4 +1,4 @@
-import Hero from '../../assets/images/Hero.jpg'
+
 import './Header.scss'
 export const Header = () => {
     return (
