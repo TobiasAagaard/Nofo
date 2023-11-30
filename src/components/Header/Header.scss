@@ -6,6 +6,9 @@
     background-image: url('../../assets/images/Hero.jpg');
     background-size: cover;
     background-repeat: no-repeat;
+    box-shadow: 1px 0px 12px 1px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 1px 0px 12px 1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 1px 0px 12px 1px rgba(0,0,0,0.75);
     .content {
         position: absolute;
         top: 5rem;
