@@ -1,0 +1,42 @@
+#about {
+    background-color: #87CA7A;
+
+    .about {
+        margin:0;
+        padding-top: 3rem;
+        font-size: 4rem;
+        font-weight: 500;
+        color: #eee;
+        text-align: center;
+    }
+   
+    figure {
+        margin: 0;
+        padding: 0;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        figcaption {
+            margin: 6.3rem;
+            h2 {
+                margin: 0 0 1rem 0;
+                padding-top: 1rem;
+                font-size: 2rem;
+                font-weight: 500;
+                color: #eee;
+                
+            }
+            p {
+                margin: 0 0 0.9rem 0;
+                font-size: 1rem;
+                font-weight: 500;
+                color: #eee;
+                letter-spacing: 0.1rem;
+
+            }
+        }
+        img {
+            margin: 5rem;
+            width: 75dvh;
+        }
+    }
+}
