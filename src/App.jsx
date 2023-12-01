@@ -1,6 +1,5 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+
+
 import './App.css'
 import { Navbar } from './components/Nav/Navbar'
 import { Header } from './components/Header/Header'
@@ -8,18 +7,21 @@ import { About } from './components/About/About'
 import { Fonde } from './components/Fonde'
 import { Partnere } from './components/Partnere'
 import { Bestyrelsen } from './components/Bestyrelsen'
+import { BrowserRouter } from 'react-router-dom'
 
 function App() {  
 
   return (
-    <>
-  <Navbar />
-  <Header />
-  <About />
-  <Partnere />
-  <Bestyrelsen />
-  <Fonde />
-    </>
+    <BrowserRouter>
+    <div className='App'>
+      <Navbar />
+      <Header />
+      <About />
+      <Partnere />
+      <Bestyrelsen />
+      <Fonde />
+    </div>
+  </BrowserRouter>
   )
 } 
 
