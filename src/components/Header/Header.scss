@@ -1,0 +1,33 @@
+.headerContainer {
+    position: relative;
+    margin: 0;
+    width: 100%;
+    height: 500px;
+    background-image: url('../../assets/images/Hero.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: 1px 0px 12px 1px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 1px 0px 12px 1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 1px 0px 12px 1px rgba(0,0,0,0.75);
+    .content {
+        position: absolute;
+        top: 5rem;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        h1 {
+            margin: auto;
+            font-size: 6rem;
+            color: #eee;
+            text-align: center;
+            text-shadow: 2px 2px 2px #000;
+        }
+        h2 {
+            margin-top: 0.2rem;
+            text-align: center;
+            font-size: 3rem;
+            color: #eee;
+            text-shadow: 2px 2px 2px #000;
+        }
+    }
+}
