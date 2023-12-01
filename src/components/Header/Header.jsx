@@ -11,10 +11,6 @@ export const Header = () => {
         <div className='content'>
             <h1>NORDJYSK FØDEVAREOVERSKUD</h1>
             <h2>Vi gør en forskel for miljø og udsatte mennesker</h2>
-            <button>
-                <p>Bliv frivilig</p>
-            </button>
-           
         </div>
     </header>
     )

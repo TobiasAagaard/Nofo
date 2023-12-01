@@ -30,33 +30,6 @@
             text-shadow: 2px 2px 2px #000;
         }
 
-        button {
-            display: flex;
-            align-items: center;
-            margin-left: 45%;
-            padding: 0.1rem 1rem 0.1rem 1rem;
-            background-color: #87CA7A;
-            border: 2px solid #333;
-            border-radius: 5%;
-            cursor: pointer;
-            p {
-                font-size: 1.1rem;
-                font-weight: 700;
-                color: #eee;
-            }
-            img {
-                visibility: hidden;
-                margin: 0 0 0 0.2rem;
-                padding: 0;
-                width: 1.6rem;
-                opacity: 50%;
-            }
-        }
-        button:hover {
-            img {
-                visibility: visible;
-            }
-        }
         
     }
 }
