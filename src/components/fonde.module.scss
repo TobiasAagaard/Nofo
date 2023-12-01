@@ -1,0 +1,20 @@
+.f_gridContainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 50px;
+    margin-top: 100px;
+}
+
+.fItem{
+    width: 100%;
+ 
+}
+
+.fHeader{
+    border-bottom: 5px solid black;
+    margin: auto;
+    max-width: 900px;
+    h2{
+        font-size: 3rem;
+    }
+}

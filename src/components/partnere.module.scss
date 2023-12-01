@@ -1,0 +1,36 @@
+.sp_gridContainer {
+    display: grid;
+   
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 16px;
+   
+
+
+img{
+    width: 10vw;
+    
+
+  
+}
+
+
+}
+
+
+.pItem{
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+ 
+  
+  .pHeader{
+    border-bottom: 5px solid black;
+    margin: auto;
+    max-width: 900px;
+    h2{
+        font-size: 3rem;
+    }
+  }
