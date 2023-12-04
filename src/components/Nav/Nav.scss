@@ -24,7 +24,7 @@
             list-style: none;
             a {
                 padding-right: 1.5rem;
-                font-size: 1.3rem;
+                font-size: 1.1rem;
                 font-weight: 600;
                 letter-spacing: 0.5px;
                 text-decoration: none;
@@ -36,15 +36,7 @@
 }
 
 .active {
-    transition: ease-in-out 0.5s;
     img {
         width: 100%;
     }
-    ul {
-        li{
-    a {
-        font-size: 1.1rem;
-    }
-}
-}
 }
