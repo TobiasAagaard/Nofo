@@ -1,17 +1,16 @@
 import './Frivillige.scss'
 import Joan from '../../assets/images/Joan.jpg'
 import Clark from '../../assets/images/Clark.jpg'
-
+import Jfrokost from '../../assets/images/jul.jpg'
+import Gocart from '../../assets/images/gocart.jpg'
 export const Frivillige = () => {
     return (
         <section className='frivillige'>
             <article className='Harticle'>
              <h2>Frivillige</h2>
              <div className='container'>
-                <span>
                     <p>Vi bygger på frivillighed og kan altid bruge friske frivillige.  </p>
                     <p>Vi har brug for dig, der vil hjælpe med:</p>
-                </span>
                 <ul>
                     <li>At hente varer enten som chauffør eller hjælper </li>
                     <li>At sortere og registrere varer, når de kommer til lageret </li>
