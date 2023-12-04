@@ -1,4 +1,4 @@
-.navContainer {
+.navbar {
     position: sticky;
     top: 0;
     z-index: 1000;
@@ -9,8 +9,11 @@
     box-shadow: 1px 0px 12px 1px rgba(0,0,0,0.75);
     -webkit-box-shadow: 1px 0px 12px 1px rgba(0,0,0,0.75);
     -moz-box-shadow: 1px 0px 12px 1px rgba(0,0,0,0.75);
+    
+    
     img {
         width: 150%;
+        transition: width 0.5s ease-in-out;
     }
     ul {
         display: flex;
@@ -21,7 +24,7 @@
             list-style: none;
             a {
                 padding-right: 1.5rem;
-                font-size: 1.1rem;
+                font-size: 1.3rem;
                 font-weight: 600;
                 letter-spacing: 0.5px;
                 text-decoration: none;
@@ -29,4 +32,19 @@
             }
         }
     }
+
+}
+
+.active {
+    transition: ease-in-out 0.5s;
+    img {
+        width: 100%;
+    }
+    ul {
+        li{
+    a {
+        font-size: 1.1rem;
+    }
+}
+}
 }

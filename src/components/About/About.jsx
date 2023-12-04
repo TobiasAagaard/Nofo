@@ -6,7 +6,6 @@ export const About = () => {
         <section id="about">
             <article>
             <h2 className='about'>Om os</h2>
-            <div className='underline'></div>
                 <figure>
                 
                     <figcaption>
