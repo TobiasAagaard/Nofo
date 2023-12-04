@@ -14,10 +14,12 @@ export const Navbar = () => {
         } else {
             setNavbar(false)
         }
-    },200)
+    },10)
+
 
         window.addEventListener('scroll', sizeChange);
 
+        
     
 
     return (
