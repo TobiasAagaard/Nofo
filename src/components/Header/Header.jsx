@@ -1,5 +1,10 @@
+import { Link } from 'react-router-dom'
 
 import './Header.scss'
+
+import Arrow from '../../assets/images/arrow-sm-right-svgrepo-com.svg'
+
+
 export const Header = () => {
     return (
     <header className='headerContainer'>

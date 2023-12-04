@@ -1,0 +1,31 @@
+footer {
+    background-color: #403D58;
+    .container {
+        max-width: 1600px;
+        margin: auto auto;
+        padding: 2rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .info {
+            p {
+                color: #BDBCBC;
+            }
+        }
+        .logo {
+            img {
+                margin: auto;
+                padding: 0;
+                width: 30%;
+         }
+     }
+        .socials {
+            display: flex;
+            flex-direction: column;
+            img {
+                margin-bottom: 0.5rem;
+                width: 3rem;
+        }
+    }
+}
+}
