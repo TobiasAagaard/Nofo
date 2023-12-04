@@ -14,7 +14,7 @@ export const Navbar = () => {
         } else {
             setNavbar(false)
         }
-    },10)
+    },200)
 
         window.addEventListener('scroll', sizeChange);
 
