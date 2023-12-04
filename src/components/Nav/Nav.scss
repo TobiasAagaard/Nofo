@@ -1,4 +1,4 @@
-.navContainer {
+.navbar {
     position: sticky;
     top: 0;
     z-index: 1000;
@@ -9,8 +9,11 @@
     box-shadow: 1px 0px 12px 1px rgba(0,0,0,0.75);
     -webkit-box-shadow: 1px 0px 12px 1px rgba(0,0,0,0.75);
     -moz-box-shadow: 1px 0px 12px 1px rgba(0,0,0,0.75);
+    
+    
     img {
         width: 150%;
+        transition: width 0.5s ease-in-out;
     }
     ul {
         display: flex;
@@ -28,5 +31,13 @@
                 color: #000;
             }
         }
+    }
+
+}
+
+.active {
+    transition: ease-in-out 3s;
+    img {
+        width: 100%;
     }
 }
