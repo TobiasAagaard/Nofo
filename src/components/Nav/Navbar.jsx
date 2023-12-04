@@ -17,8 +17,17 @@ export const Navbar = () => {
     },10)
 
 
-        window.addEventListener('scroll', sizeChange);
-
+    useEffect(() => {
+        const handleScroll = () => {
+          sizeChange();
+        };
+      
+        window.addEventListener('scroll', handleScroll);
+      
+        return () => {
+          window.removeEventListener('scroll', handleScroll);
+        };
+      }, []);
         
     
 
