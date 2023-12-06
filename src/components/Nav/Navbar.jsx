@@ -14,7 +14,7 @@ export const Navbar = () => {
         } else {
             setNavbar(false)
         }
-    },10)
+    },25)
 
 
     useEffect(() => {
