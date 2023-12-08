@@ -46,7 +46,9 @@ export const Fonde = () => {
         </p>
         <p className={style.fItem}>Ejendomsmæglernes Fond</p>
         <p className={style.fItem}>
-          <a href="https://xn--ellenhrupsfond-vqb.dk/" target="_blank">Ellen Hørups Fond</a>
+          <a href="https://xn--ellenhrupsfond-vqb.dk/" target="_blank">
+            Ellen Hørups Fond
+          </a>
         </p>
         <p className={style.fItem}>Energiselskabet Eniig, skulderklap</p>
         <p className={style.fItem}>Enid Ingemanns Fond</p>
@@ -62,7 +64,10 @@ export const Fonde = () => {
           </a>
         </p>
         <p className={style.fItem}>
-          <a href="https://www.sologstrand.dk/information/om-os/sol-og-strand-fonden" target="_blank">
+          <a
+            href="https://www.sologstrand.dk/information/om-os/sol-og-strand-fonden"
+            target="_blank"
+          >
             <img
               src="./src/assets/fonde/sos_logo_sort-tekst-venstre.svg"
               alt="sologstrand"
@@ -77,7 +82,10 @@ export const Fonde = () => {
           </a>
         </p>
         <p className={style.fItem}>
-          <a href="https://www.gudrunogpallemorchsmindefond.dk/" target="_blank">
+          <a
+            href="https://www.gudrunogpallemorchsmindefond.dk/"
+            target="_blank"
+          >
             <img src="./src/assets/fonde/gudrunogpalle.png"></img>
           </a>
         </p>
@@ -91,7 +99,9 @@ export const Fonde = () => {
         </p>
         <p className={style.fItem}>Inge og Asker Larsens Fond</p>
         <p className={style.fItem}>
-          <a href="https://www.jubfond.dk/" target="_blank">Jubilæumsfonden af 12/8 1973</a>
+          <a href="https://www.jubfond.dk/" target="_blank">
+            Jubilæumsfonden af 12/8 1973
+          </a>
         </p>
         <p className={style.fItem}>
           <a href="https://www.hoffmannhusmansfond.dk/" target="_blank">
@@ -107,20 +117,12 @@ export const Fonde = () => {
         <p className={style.fItem}>Marie og M. B. Richters Fond</p>
         <p className={style.fItem}>
           <a href="https://mst.dk/erhverv" target="_blank">
-            <img
-              src="./src/assets/fonde/mmstyrelsen.png"
-              alt="mst"
-              
-            />
+            <img src="./src/assets/fonde/mmstyrelsen.png" alt="mst" />
           </a>
         </p>
         <p className={style.fItem}>
           <a href="https://nordeafonden.dk/" target="_blank">
-            <img
-              src="./src/assets/fonde/nordeafonden.png"
-              alt="mst"
-              
-            />
+            <img src="./src/assets/fonde/nordeafonden.png" alt="mst" />
           </a>
         </p>
         <p className={style.fItem}>
@@ -140,7 +142,9 @@ export const Fonde = () => {
           </a>
         </p>
         <p className={style.fItem}>
-          <a href="https://www.ottobruunsfond.dk/" target="_blank">Otto Bruuns Fond</a>
+          <a href="https://www.ottobruunsfond.dk/" target="_blank">
+            Otto Bruuns Fond
+          </a>
         </p>
         <p className={style.fItem}>Otto og Gerda Bings Mindelegat</p>
         <p className={style.fItem}>
@@ -165,7 +169,10 @@ export const Fonde = () => {
           </a>
         </p>
         <p className={style.fItem}>
-          <a href="https://www.sparnord.dk/filialer/aalborg-vejgaard" target="_blank">
+          <a
+            href="https://www.sparnord.dk/filialer/aalborg-vejgaard"
+            target="_blank"
+          >
             Spar Nord Fonden, Vejgaard afdeling
           </a>
         </p>
@@ -189,6 +196,11 @@ export const Fonde = () => {
         <p className={style.fItem}>
           <a href="https://aalborg3.ysmen.dk/" target="_blank">
             <img src="./src/assets/fonde/menettes_logo_cmyk.jpg"></img>
+          </a>
+        </p>
+        <p className={style.fItem}>
+          <a href="https://jaschafonden.dk/" target="_blank">
+            <img src="./src/assets/fonde/jascha_1.png"></img>
           </a>
         </p>
       </div>
