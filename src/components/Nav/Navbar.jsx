@@ -14,11 +14,20 @@ export const Navbar = () => {
         } else {
             setNavbar(false)
         }
-    },10)
+    },25)
 
 
-        window.addEventListener('scroll', sizeChange);
-
+    useEffect(() => {
+        const handleScroll = () => {
+          sizeChange();
+        };
+      
+        window.addEventListener('scroll', handleScroll);
+      
+        return () => {
+          window.removeEventListener('scroll', handleScroll);
+        };
+      }, []);
         
     
 
