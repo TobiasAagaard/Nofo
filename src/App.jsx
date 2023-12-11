@@ -7,10 +7,10 @@ import { About } from './components/About/About'
 import { Partnere } from './components/Partnere/Partnere'
 import { Bestyrelsen } from './components/Bestyrelsen/Bestyrelsen'
 import { Fonde } from './components/Fonde/Fonde'
-
 import { Footer } from './components/Footer/Footer'
-
+import { Medlem } from './components/Medlem/Medlem'
 import { BrowserRouter } from 'react-router-dom'
+import { Kontakt } from './components/Kontakt/kontakt'
 
 function App() {  
 
@@ -20,10 +20,13 @@ function App() {
       <Navbar />
       <Header />
       <About />
+      <Medlem />
       <Partnere />
       <Bestyrelsen />
       <Fonde />
+      <Kontakt />
       <Footer />
+      
     </div>
   </BrowserRouter>
   )

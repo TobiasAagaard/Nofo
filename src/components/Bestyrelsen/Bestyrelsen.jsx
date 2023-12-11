@@ -10,25 +10,69 @@ export const Bestyrelsen = () => {
         <div className={style.medlem}>
           <img src="./src/assets/images/Bente.jpg"></img>
           <p className={style.medlemInfo}>
-          <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"><path d="M20 3H4a1 1 0 0 0-1 1v16a1 1 0 0 0 1 1h8.615v-6.96h-2.338v-2.725h2.338v-2c0-2.325 1.42-3.592 3.5-3.592c.699-.002 1.399.034 2.095.107v2.42h-1.435c-1.128 0-1.348.538-1.348 1.325v1.735h2.697l-.35 2.725h-2.348V21H20a1 1 0 0 0 1-1V4a1 1 0 0 0-1-1z" fill="#888888"/></svg>
-          <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"><path fill="#888888" d="M4 20q-.825 0-1.412-.587T2 18V6q0-.825.588-1.412T4 4h16q.825 0 1.413.588T22 6v12q0 .825-.587 1.413T20 20H4Zm8-7l8-5V6l-8 5l-8-5v2l8 5Z"/></svg>
             <div>Bente Schjødt</div><span>Kontakt Person</span>
+            <div className={style.bSocials}> 
+            
+            <a href="https://www.facebook.com/bente.schjoedt"><svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="32"
+              height="32"
+              viewBox="0 0 24 24"
+              target="_blank"
+            >
+              <path
+                d="M20 3H4a1 1 0 0 0-1 1v16a1 1 0 0 0 1 1h8.615v-6.96h-2.338v-2.725h2.338v-2c0-2.325 1.42-3.592 3.5-3.592c.699-.002 1.399.034 2.095.107v2.42h-1.435c-1.128 0-1.348.538-1.348 1.325v1.735h2.697l-.35 2.725h-2.348V21H20a1 1 0 0 0 1-1V4a1 1 0 0 0-1-1z"
+                fill="#888888"
+              />
+            </svg></a>
+            
+            
+             <a href="info@no-fo.dk"><svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="32"
+              height="32"
+              viewBox="0 0 24 24"
+              target="_blank"
+            >
+              <path
+                fill="#888888"
+                d="M4 20q-.825 0-1.412-.587T2 18V6q0-.825.588-1.412T4 4h16q.825 0 1.413.588T22 6v12q0 .825-.587 1.413T20 20H4Zm8-7l8-5V6l-8 5l-8-5v2l8 5Z"
+              />
+            </svg></a>
+            
+            
+            
+            </div>
+          
           </p>
         </div>
         <div className={style.medlem}>
-        
           <img src="./src/assets/images/Peter.jpg"></img>
           <p className={style.medlemInfo}>
-          <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"><path d="M20 3H4a1 1 0 0 0-1 1v16a1 1 0 0 0 1 1h8.615v-6.96h-2.338v-2.725h2.338v-2c0-2.325 1.42-3.592 3.5-3.592c.699-.002 1.399.034 2.095.107v2.42h-1.435c-1.128 0-1.348.538-1.348 1.325v1.735h2.697l-.35 2.725h-2.348V21H20a1 1 0 0 0 1-1V4a1 1 0 0 0-1-1z" fill="#888888"/></svg>
-            <div>Peter Als</div><span>Bestyrelsesmedlem</span>
-
+            <div>Peter Als</div>
+            <span>Bestyrelsesmedlem</span>
+            <div className={style.bSocials}> <a href="https://www.facebook.com/alspeter"><svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="32"
+              height="32"
+              viewBox="0 0 24 24"
+              target="_blank"
+            >
+              <path
+                d="M20 3H4a1 1 0 0 0-1 1v16a1 1 0 0 0 1 1h8.615v-6.96h-2.338v-2.725h2.338v-2c0-2.325 1.42-3.592 3.5-3.592c.699-.002 1.399.034 2.095.107v2.42h-1.435c-1.128 0-1.348.538-1.348 1.325v1.735h2.697l-.35 2.725h-2.348V21H20a1 1 0 0 0 1-1V4a1 1 0 0 0-1-1z"
+                fill="#888888"
+              />
+            </svg></a></div>
+           
           </p>
         </div>
         <div className={style.medlem}>
           <img src="./src/assets/images/Ann-bestyrelse.jpg"></img>
           <p className={style.medlemInfo}>
-            <div>Ann Lange</div><span>Bestyrelsesmedlem</span>
-
+            <div>Ann Lange</div>
+            <span>Bestyrelsesmedlem</span>
+            
+            
           </p>
         </div>
       </div>
@@ -36,15 +80,15 @@ export const Bestyrelsen = () => {
         <div className={style.medlem}>
           <img src="./src/assets/images/Frederik.jpg"></img>
           <p className={style.medlemInfo}>
-            <div>Frederik Boje</div><span>Bestyrelsesmedlem</span>
-
+            <div>Frederik Boje</div>
+            <span>Bestyrelsesmedlem</span>
           </p>
         </div>
         <div className={style.medlem}>
           <img src="./src/assets/images/Preben-bestyrelse.jpg"></img>
           <p className={style.medlemInfo}>
-            <div>Preben Jakobsen</div><span>Bestyrelsesmedlem</span>
-
+            <div>Preben Jakobsen</div>
+            <span>Bestyrelsesmedlem</span>
           </p>
         </div>
       </div>
@@ -57,6 +101,7 @@ export const Bestyrelsen = () => {
               height="16"
               width="14"
               viewBox="0 0 448 512"
+              
             >
               <path
                 fill="#ffffff"
