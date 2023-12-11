@@ -44,7 +44,7 @@ export const Frivillige = () => {
             </section>
            
             <section className='aktiviteter'>¨
-            <h2>Begivenheder for frivillige</h2>
+            <h2>Tideligere begivenheder for vores frivillige</h2>
                 <div className="grid">
                 <div className='cardContainer'>
                     <div className="card">
