@@ -43,10 +43,14 @@
   span{
     color: #87ca7a;
   }
-  
+
 }
 .medlemInfo{
-  font-size: 12px;
+  display: flex;
+  flex-direction: column;
+  font-size: 14px;
+  
+  justify-content: center;
 
 }
 .bHeader {
@@ -87,6 +91,7 @@
   padding: 10px;
   border-radius: 7px;
   text-align: center;
+  
 
   a:hover {
     color: greenyellow;
@@ -112,4 +117,9 @@
 
 .cardHeader {
   border-bottom: 2px solid white;
+}
+
+.bSocials{
+  position: absolute;
+  top: auto;
 }
