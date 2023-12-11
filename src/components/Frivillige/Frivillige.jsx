@@ -42,13 +42,14 @@ export const Frivillige = () => {
                     </figcaption>
                 </figure>
             </section>
-
-            <section className='aktiviteter'>
+           
+            <section className='aktiviteter'>¨
+            <h2>Begivenheder for frivillige</h2>
                 <div className="grid">
                 <div className='cardContainer'>
                     <div className="card">
                         <img className='front' src={Jfrokost} alt="" />
-                        <div className="back">
+                        <div className="back blue">
                             <h3>Julefrokosten før det går løs med pakkespil</h3>
                         </div>
                     </div>

@@ -84,6 +84,14 @@
     }
 
     .aktiviteter {
+        h2 {
+            margin: 0 auto 2rem auto;
+            padding: 3rem 0 1rem 0;
+            text-align: center;
+            font-size: 2.5rem;
+            border-bottom:3px solid #eee;
+            max-width: 900px;
+        }
         .grid {
             display: grid;
             grid-template-columns: 1fr 1fr;
@@ -119,6 +127,9 @@
                         text-align: center;
                         font-size: 2.5rem;
                     }
+                }
+                .blue {
+                    background-color: #403D58;
                 }
             }
         }
