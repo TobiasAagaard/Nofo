@@ -4,6 +4,7 @@ import './App.css'
 import { Navbar } from './components/Nav/Navbar'
 import { Header } from './components/Header/Header'
 import { About } from './components/About/About'
+import { Frivillige } from './components/Frivillige/Frivillige'
 import { Partnere } from './components/Partnere/Partnere'
 import { Bestyrelsen } from './components/Bestyrelsen/Bestyrelsen'
 import { Fonde } from './components/Fonde/Fonde'
@@ -20,6 +21,7 @@ function App() {
       <Navbar />
       <Header />
       <About />
+      <Frivillige />
       <Medlem />
       <Partnere />
       <Bestyrelsen />
