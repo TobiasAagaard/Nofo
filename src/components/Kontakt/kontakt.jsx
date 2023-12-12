@@ -7,14 +7,6 @@ export const Kontakt = () => {
         <h2> Kontakt </h2>
       </div>
       <div className={style.kontaktContainer}>
-        <div className={style.kontaktImage}>
-          <img
-            src="./src/assets/images/NOFOLogomed.svg"
-            alt="nofo"
-            height="200"
-            width="200"
-          ></img>
-        </div>
         <div className={style.kontaktContent}>
           <p>Troensevej 19H 9220 Aalborg Øst</p>{" "}
           <p>Kontaktperson: Bente Schjødt, mobil: 52 30 51 15 </p>Daglig leder:
