@@ -6,6 +6,7 @@ import _ from 'lodash';
 
 
 export const Navbar = () => {
+    
     const [navbar, setNavbar] = useState(false)
 
     const [menuOpen, setMenuOpen] = useState(false)
@@ -37,11 +38,12 @@ export const Navbar = () => {
 
     return (
         <nav className={navbar ? 'navbar active' : 'navbar'}>
-            <Link to={'/'}>
+            <Link className='homeLink' to={'/'}>
             <img src={Logo} alt="Logo" />
             </Link>
+    
 
-            <div className="menu" onClick={handleToggle}>
+            <div className={menuOpen ? "menu open" : "menu"} onClick={handleToggle}>
                 <span></span>
                 <span></span>
                 <span></span>

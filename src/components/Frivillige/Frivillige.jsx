@@ -55,6 +55,7 @@ export const Frivillige = () => {
                     </div>
                 </div>
 
+               
                 <div className='cardContainer'>
                     <div className="card">
                         <img className='front' src={Gocart} alt="" />

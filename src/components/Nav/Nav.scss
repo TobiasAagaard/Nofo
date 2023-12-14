@@ -12,7 +12,8 @@
     
    
     img {
-        width: 150%;
+        display: inline-block;
+        width: 25rem;
         transition: width 0.5s ease-in-out;
     }
     ul {
@@ -38,7 +39,7 @@
 
 .active {
     img {
-        width: 100%;
+        width: 20rem;
     }
 }
 
@@ -53,13 +54,13 @@
             }
         }
         img {
-            width: 130%;
+            width: 19rem;
             transition: width 0.5s ease-in-out
         }
     }
     .active {
         img {
-            width: 100%;
+           width: 19rem;
         }
     }
 }
@@ -68,6 +69,8 @@
     .navbar {
         position: relative;
         position: sticky;
+        flex-direction: column;
+        align-items: flex-start;
 
         .menu {
             display: flex;
@@ -77,17 +80,33 @@
             width: 2.2em;
             height: 2em;
             top: 2.5rem;
-            right: 5rem;
+            right: 3rem;
             cursor: pointer;
             span {
                 height: 0.4rem;
                 width: 100%;
                 background-color: #000;
                 border-radius: 0.2rem;
+                transition: all 0.3s ease-in-out;
+            }
+        } 
+        .open {
+            span:nth-child(1) {
+                transform: rotate(45deg) translate(-0.75em, -1em);
+                transition: ease-out 0.3s;
+            }
+            span:nth-child(2) {
+                transform: scale(0);
+
+            }
+            span:nth-child(3) {
+                transform: rotate(135deg) translate(-1.9em, 1.7em);
+                transition: ease-out 0.3s;
             }
         }
         img {
-            width: 100%;
+            width: 20;
+            display: inline-block;
         }
         ul {
             display: none;
@@ -104,6 +123,10 @@
         } 
         .open {
             display: flex;
+            padding-top: 2rem;
+            justify-content: space-around;
         }
+         
     }
+    
 }
