@@ -43,7 +43,7 @@ export const Navbar = () => {
             </Link>
     
 
-            <div className={menuOpen ? "menu open" : "menu"} onClick={handleToggle}>
+            <div className={menuOpen ? "menu start" : "menu"} onClick={handleToggle}>
                 <span></span>
                 <span></span>
                 <span></span>
