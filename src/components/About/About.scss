@@ -42,3 +42,81 @@
         }
     }
 }
+
+@media only screen and (max-width: 1680px) {
+    #about {
+        figure {
+            figcaption {
+                h2 {
+                    
+                    font-size: 1.5rem;
+                }
+                p {
+                    font-size: 0.9rem;
+                }
+            }
+            img {
+                margin: 7rem;
+                width: 60dvh;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 1415px) {
+    #about {
+        figure {
+            figcaption {
+                margin: 4rem;
+            }
+            img {
+                margin: 4rem;
+                width: 60dvh;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 1280px) {
+    #about {
+        figure {
+            figcaption {
+                margin: 4rem;
+                h2 {
+                    font-size: 1.2rem;
+                }
+                p {
+                    font-size: 0.7rem;
+                }
+            }
+            img {
+                margin: 4rem;
+                width: 55dvh;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 1080px) {
+    #about {
+        figure {
+            display: flex;
+            flex-direction: column;
+            img {
+                margin: 0 auto 4rem auto;
+            }
+        }
+    }
+}
+
+
+@media only screen and (max-width: 520px) {
+    #about {
+        figure {
+            img {
+                width: 37dvh;
+            }
+        }
+    }
+}
+
