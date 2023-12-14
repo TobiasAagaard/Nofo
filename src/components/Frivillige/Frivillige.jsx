@@ -33,7 +33,7 @@ export const Frivillige = () => {
                     </figcaption>
                 </figure>
                 <figure>
-                    <img src={Clark} alt="Clark protræt foto" />
+                    <img src={Clark} className='haighlight' alt="Clark protræt foto" />
                     <figcaption className='blue'>
                         <h3>Clark</h3>
                         <p>Det at være frivillig giver mig nogle forpligtelser og noget at stå op til.</p>
