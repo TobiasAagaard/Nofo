@@ -34,7 +34,6 @@ export const Navbar = () => {
         
       const handleToggle = () => {
         setMenuOpen(!menuOpen)
-        document.body.style.overflow = document.body.style.overflow === 'hidden' ? 'auto' : 'hidden';
     }
 
     return (
