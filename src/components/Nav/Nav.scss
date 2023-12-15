@@ -82,6 +82,7 @@
             top: 2.5rem;
             right: 3rem;
             cursor: pointer;
+            
             span {
                 height: 0.4rem;
                 width: 100%;
@@ -93,7 +94,7 @@
         .start {
             padding-top: 2rem;
             span:nth-child(1) {
-                transform: rotate(45deg) translate(-0.75em, -1em);
+                transform: rotate(45deg) translate(-0.63em, -1em);
                 transition: ease-out 0.3s;
             }
             span:nth-child(2) {

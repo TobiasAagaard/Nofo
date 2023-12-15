@@ -1,36 +1,33 @@
+.kontaktHeader {
+  h2 {
+    margin: auto;
+    text-align: center;
+    font-size: 3rem;
+    border-bottom:3px solid #000;
+    max-width: 900px;
+  }
+}
+
 .kontaktContainer {
   display: flex;
   gap: 2rem;
   align-items: center;
-  height: 70vh;
-  max-width: 900px;
-  margin: auto;
-}
+  justify-content: center;
+  margin: 5rem 0 10rem 0;
 
-.kontaktImage {
-  text-align: center;
-}
+
 
 .kontaktContent {
   margin-top: 20px;
   color: #333;
   font-size: 18px;
-  padding: 50px;
-  
-  
+  padding: 15px;
 
-  img{
-    width: 100%;
-  }
+
 }
 
-.kontaktHeader {
-  max-width: 900px;
-  margin: auto;
-  text-align: center;
-  border-bottom: 3px solid black;
-
-  h2{
-    font-size: 3rem;
-  }
+iframe {
+  width: 32vw;
+  height: 42vh;
+}
 }
