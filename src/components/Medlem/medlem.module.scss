@@ -30,3 +30,11 @@
   padding-top: 2rem;
   line-height: 30px;
 }
+
+
+@media only screen and (max-width: 800px) {
+  .medlemContent{
+    display: grid;
+    grid-template-columns: 1fr;
+  } 
+  }
