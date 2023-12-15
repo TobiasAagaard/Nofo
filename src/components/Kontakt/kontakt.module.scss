@@ -2,10 +2,6 @@
   display: flex;
   gap: 2rem;
   align-items: center;
-  height: 70vh;
-  max-width: 900px;
-  margin: auto;
-}
 
 .kontaktImage {
   text-align: center;
@@ -15,11 +11,9 @@
   margin-top: 20px;
   color: #333;
   font-size: 18px;
-  padding: 50px;
-  
-  
+  padding: 15px;
 
-  img{
+  img {
     width: 100%;
   }
 }
@@ -28,9 +22,14 @@
   max-width: 900px;
   margin: auto;
   text-align: center;
-  border-bottom: 3px solid black;
+  border-bottom: 3px solid #eee;
 
-  h2{
+  h2 {
     font-size: 3rem;
   }
+}
+
+iframe {
+  width: 32vw;
+  height: 42vh;
 }
