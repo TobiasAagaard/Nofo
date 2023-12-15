@@ -19,11 +19,32 @@
 }
 
 .pHeader {
-  border-bottom: 3px solid #eee;
+  border-bottom: 3px solid #000;
   margin: auto;
   max-width: 900px;
   text-align: center;
   h2 {
     font-size: 3rem;
+  }
+}
+
+
+@media only screen and (max-width: 830px) {
+  .sp_gridContainer {
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    img {
+      margin: 5rem 0;
+      width: 30vw;
+    }
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .sp_gridContainer {
+    grid-template-columns: 1fr;
+    img {
+      width: 60vw;
+    }
   }
 }

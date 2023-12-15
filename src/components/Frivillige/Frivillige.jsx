@@ -43,7 +43,7 @@ export const Frivillige = () => {
                 </figure>
             </section>
            
-            <section className='aktiviteter'>¨
+            <section className='aktiviteter'>
             <h2>Tideligere begivenheder for vores frivillige</h2>
                 <div className="grid">
                 <div className='cardContainer'>
