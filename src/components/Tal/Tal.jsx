@@ -6,7 +6,7 @@ import style from "./tal.module.scss";
 export const Tal = () => {
   return (
     <>
-      <div className={style.tHeader}>
+      <div className={style.tHeader} id="tal">
         <h2>Nofo i tal</h2>
       </div>
       <div className={style.tContainer}>

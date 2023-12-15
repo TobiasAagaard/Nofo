@@ -2,7 +2,7 @@ import style from "./bestyrelsen.module.scss";
 export const Bestyrelsen = () => {
   return (
     <>
-      <div className={style.bHeader}>
+      <div className={style.bHeader} id="bestyrelsen">
         <h2>Bestyrelsen</h2>
       </div>
       <div className={style.b_Container}></div>
