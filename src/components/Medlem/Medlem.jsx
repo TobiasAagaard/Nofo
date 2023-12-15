@@ -3,7 +3,7 @@ export const Medlem = () => {
   return (
     <>
       <div className={style.medlemContainer}>
-        <div className={style.medlemHeader}>
+        <div className={style.medlemHeader} id="medlem">
           <h2>Bliv Medlem</h2>
           </div>
           <article className={style.medlemContent}>

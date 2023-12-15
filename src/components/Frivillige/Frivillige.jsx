@@ -5,7 +5,7 @@ import Jfrokost from '../../assets/images/jul.png'
 import Gocart from '../../assets/images/gocart.png'
 export const Frivillige = () => {
     return (
-        <section className='frivillige'>
+        <section className='frivillige' id='Frivillige'>
             <article className='Harticle'>
              <h2>Frivillige</h2>
              <div className='container'>

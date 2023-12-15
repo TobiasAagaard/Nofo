@@ -10,7 +10,6 @@ import { Bestyrelsen } from './components/Bestyrelsen/Bestyrelsen'
 import { Fonde } from './components/Fonde/Fonde'
 import { Footer } from './components/Footer/Footer'
 import { Medlem } from './components/Medlem/Medlem'
-import { BrowserRouter } from 'react-router-dom'
 import { Kontakt } from './components/Kontakt/kontakt'
 import { Tal } from './components/Tal/Tal'
 import { Uddeling } from './components/Uddeling/Uddeling'
@@ -19,7 +18,6 @@ import { Uddeling } from './components/Uddeling/Uddeling'
 function App() {  
 
   return (
-    <BrowserRouter>
     <div className='App'>
       <Navbar />
       <Header />
@@ -35,7 +33,6 @@ function App() {
       <Footer />
       
     </div>
-  </BrowserRouter>
   )
 } 
 

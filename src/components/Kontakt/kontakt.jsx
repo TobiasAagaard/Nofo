@@ -3,7 +3,7 @@ import style from "./kontakt.module.scss";
 export const Kontakt = () => {
   return (
     <>
-      <div className={style.kontaktHeader}>
+      <div className={style.kontaktHeader} id="kontakt">
         <h2> Kontakt </h2>
       </div>
       <div className={style.kontaktContainer}>

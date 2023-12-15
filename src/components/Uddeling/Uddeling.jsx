@@ -3,7 +3,7 @@ import style from "./uddeling.module.scss";
 export const Uddeling = () => {
   return (
     <>
-      <div className={style.uHeader}>
+      <div className={style.uHeader} id="Uddeling">
         <h2>Uddeling af overskudsmad </h2>
       </div>
 

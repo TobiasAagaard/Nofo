@@ -2,7 +2,7 @@ import style from "./fonde.module.scss";
 export const Fonde = () => {
   return (
     <>
-      <div className={style.fHeader}>
+      <div className={style.fHeader}id="fonde">
         <h2>Donationer fra fonde</h2>
       </div>
       <div className={style.f_gridContainer}>

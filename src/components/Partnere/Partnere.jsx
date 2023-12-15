@@ -3,7 +3,7 @@ import style from "./partnere.module.scss";
 export const Partnere = () => {
   return (
     <>
-      <div className={style.pHeader}>
+      <div className={style.pHeader} id="partnere">
         <h2>Samarbejds Partnere</h2>
       </div>
       <div className={style.sp_gridContainer}>
