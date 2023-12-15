@@ -12,6 +12,9 @@ import { Footer } from './components/Footer/Footer'
 import { Medlem } from './components/Medlem/Medlem'
 import { BrowserRouter } from 'react-router-dom'
 import { Kontakt } from './components/Kontakt/kontakt'
+import { Tal } from './components/Tal/Tal'
+import { Uddeling } from './components/Uddeling/Uddeling'
+
 
 function App() {  
 
@@ -22,6 +25,8 @@ function App() {
       <Header />
       <About />
       <Frivillige />
+      <Uddeling />
+      <Tal  />
       <Medlem />
       <Partnere />
       <Bestyrelsen />
