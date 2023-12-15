@@ -1,6 +1,7 @@
 .kontaktHeader {
   h2 {
-    margin: auto;
+    margin: 2rem auto 0 auto;
+    padding-bottom: 2rem;
     text-align: center;
     font-size: 3rem;
     border-bottom:3px solid #000;
@@ -30,4 +31,27 @@ iframe {
   width: 32vw;
   height: 42vh;
 }
+}
+
+
+
+@media only screen and (max-width: 1024px) {
+  .kontaktContainer {
+    flex-direction: column;
+
+
+    iframe {
+      width: 500px;
+    }
+  }
+}
+
+
+@media only screen and (max-width: 580px) {
+  .kontaktContainer {
+    margin: 2rem 0 5rem 0;
+    iframe {
+      width: 420px;
+    }
+  }
 }
