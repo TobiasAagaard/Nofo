@@ -8,7 +8,7 @@ export const Kontakt = () => {
       </div>
       <div className={style.kontaktContainer}>
         <div className={style.kontaktContent}>
-          <p>Troensevej 19H 9220 Aalborg Øst</p>{" "}
+          <p>Troensevej 19H 9220 Aalborg Øst</p>
           <p>Kontaktperson: Bente Schjødt, mobil: 52 30 51 15 </p>Daglig leder:
           Frederik Boje, mobil: 24 80 62 15<p> e-mail: info@no-fo.dk</p>
         </div>
