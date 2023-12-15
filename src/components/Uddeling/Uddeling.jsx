@@ -66,8 +66,8 @@ export const Uddeling = () => {
         </article>
         <div className={style.iframeContainer}>
         <iframe
-          width="420"
-          height="320"
+          width="357"
+          height="200"
           src="https://www.no-fo.dk/wp-content/uploads/2020/NOFO%20-%20Arbejdsdagen%20under%20Covid-19.mp4"
         ></iframe></div>
         <article>
