@@ -6,7 +6,10 @@ import _ from 'lodash';
 
 
 export const Navbar = () => {
+    
     const [navbar, setNavbar] = useState(false)
+
+    const [menuOpen, setMenuOpen] = useState(false)
 
     const sizeChange = _.debounce(() => {
         if (window.scrollY >= 20){
@@ -29,20 +32,30 @@ export const Navbar = () => {
         };
       }, []);
         
-    
+      const handleToggle = () => {
+        setMenuOpen(!menuOpen)
+    }
 
     return (
         <nav className={navbar ? 'navbar active' : 'navbar'}>
-            <Link to={'/'}>
+            <Link className='homeLink' to={'/'}>
             <img src={Logo} alt="Logo" />
             </Link>
-            <ul>
-                <li><NavLink to={'#about'}>Om os</NavLink></li>
-                <li><NavLink>Samarbejdspartnere</NavLink></li>
-                <li><NavLink>Bliv medlem</NavLink></li>
-                <li><NavLink>Kontakt</NavLink></li>
-                <li><NavLink>Status</NavLink></li>
-                <li><NavLink>Åbningstider</NavLink></li>
+    
+
+            <div className={menuOpen ? "menu start" : "menu"} onClick={handleToggle}>
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+
+            <ul className={menuOpen ? "open" : ""}>
+                <li><NavLink to={'#about'} onClick={handleToggle}>Om os</NavLink></li>
+                <li><NavLink onClick={handleToggle}>Samarbejdspartnere</NavLink></li>
+                <li><NavLink onClick={handleToggle}>Bliv medlem</NavLink></li>
+                <li><NavLink onClick={handleToggle}>Kontakt</NavLink></li>
+                <li><NavLink onClick={handleToggle}>Status</NavLink></li>
+                <li><NavLink onClick={handleToggle}>Åbningstider</NavLink></li>
             </ul>
         </nav>
     )

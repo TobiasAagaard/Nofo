@@ -1,8 +1,8 @@
 import './Frivillige.scss'
 import Joan from '../../assets/images/Joan.jpg'
-import Clark from '../../assets/images/Clark.jpg'
-import Jfrokost from '../../assets/images/jul.jpg'
-import Gocart from '../../assets/images/gocart.jpg'
+import Clark from '../../assets/images/Clark.png'
+import Jfrokost from '../../assets/images/jul.png'
+import Gocart from '../../assets/images/gocart.png'
 export const Frivillige = () => {
     return (
         <section className='frivillige'>
@@ -20,6 +20,7 @@ export const Frivillige = () => {
                 </ul>
                 </div>
             </article>
+
             <section className='infoFrivillige'>
                 <figure>
                     <img src={Joan} alt="Joan protræt foto" />
@@ -32,7 +33,7 @@ export const Frivillige = () => {
                     </figcaption>
                 </figure>
                 <figure>
-                    <img src={Clark} alt="Clark protræt foto" />
+                    <img src={Clark} className='haighlight' alt="Clark protræt foto" />
                     <figcaption className='blue'>
                         <h3>Clark</h3>
                         <p>Det at være frivillig giver mig nogle forpligtelser og noget at stå op til.</p>
@@ -41,6 +42,32 @@ export const Frivillige = () => {
                     </figcaption>
                 </figure>
             </section>
+           
+            <section className='aktiviteter'>¨
+            <h2>Tideligere begivenheder for vores frivillige</h2>
+                <div className="grid">
+                <div className='cardContainer'>
+                    <div className="card">
+                        <img className='front' src={Jfrokost} alt="" />
+                        <div className="back blue">
+                            <h3>Julefrokosten før det går løs med pakkespil</h3>
+                        </div>
+                    </div>
+                </div>
+
+               
+                <div className='cardContainer'>
+                    <div className="card">
+                        <img className='front' src={Gocart} alt="" />
+                        <div className="back">
+                            <h3>På gokartbanen ved Mou</h3>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </section>
+            
+
         </section>
     )
 }

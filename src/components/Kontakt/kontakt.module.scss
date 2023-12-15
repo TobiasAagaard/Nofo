@@ -1,12 +1,7 @@
 .kontaktContainer {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  display: flex;
+  gap: 2rem;
   align-items: center;
-  padding: 30px;
-  max-width: 900px;
-  margin: auto;
-  gap: 30px;
-}
 
 .kontaktImage {
   text-align: center;
