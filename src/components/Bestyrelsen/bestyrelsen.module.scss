@@ -79,7 +79,7 @@
 
 .gCard {
   width: 9vw;
-  height: 17vh;
+  height: 20vh;
   background-color: #87ca7a;
   padding: 10px;
   border-radius: 7px;
@@ -97,7 +97,7 @@
 
 .card {
   width: 9vw;
-  height: 17vh;
+  height: 20vh;
   background-color: #403d58;
   padding: 10px;
   border-radius: 7px;
@@ -114,5 +114,13 @@
 .bSocials {
   position: absolute;
   top: auto;
-
+  margin-left: 2.9rem;
+  a {
+    svg {
+      width: 2rem;
+    }
+  }
 }
+
+
+@media only screen and (max-width: 1300px) {}
