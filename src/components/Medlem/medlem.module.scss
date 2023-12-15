@@ -1,10 +1,8 @@
 .medlemContainer {
-  justify-content: center;
-  gap: 50px;
   margin: auto;
   color: white;
   background-color: #403d58;
-  padding: 50px;
+  padding: 11vw;
 
   img {
     width: 100%;
@@ -13,12 +11,13 @@
 }
 
 .medlemHeader {
-  margin: auto;
+  margin:  0 auto 1rem auto;
   max-width: 900px;
   text-align: center;
   border-bottom: 3px solid white;
 
   h2 {
+    margin-top: 0;
     font-size: 3rem;
   }
 }
@@ -26,9 +25,8 @@
 .medlemContent {
   text-align: left;
   justify-content: center;
-  align-items: center;
   max-width: 900px;
   margin: auto;
-  padding: 80px;
+  padding-top: 2rem;
   line-height: 30px;
 }
