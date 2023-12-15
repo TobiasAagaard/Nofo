@@ -1,0 +1,33 @@
+.uHeader{
+    text-align: center;
+    border-bottom: 3px solid #eee;
+    max-width: 900px;
+    margin: auto;
+}
+
+.uContainer{
+    max-width: 800px;
+    margin: auto;
+    padding: 30px;
+    line-height: 40px;
+   
+  
+    
+
+    article{
+        padding: 25px;
+        
+        img{
+            width: 25%;
+        }
+    }
+}
+
+.iframeContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+ 
