@@ -1,8 +1,10 @@
 .medlemContainer {
+  justify-content: center;
+  gap: 50px;
   margin: auto;
   color: white;
   background-color: #403d58;
-  padding: 11vw;
+  padding: 50px;
 
   img {
     width: 100%;
@@ -11,13 +13,12 @@
 }
 
 .medlemHeader {
-  margin:  0 auto 1rem auto;
+  margin: auto;
   max-width: 900px;
   text-align: center;
   border-bottom: 3px solid white;
 
   h2 {
-    margin-top: 0;
     font-size: 3rem;
   }
 }
@@ -25,16 +26,11 @@
 .medlemContent {
   text-align: left;
   justify-content: center;
+  align-items: center;
   max-width: 900px;
   margin: auto;
-  padding-top: 2rem;
+  padding: 80px;
   line-height: 30px;
 }
 
 
-@media only screen and (max-width: 800px) {
-  .medlemContent{
-    display: grid;
-    grid-template-columns: 1fr;
-  } 
-  }
